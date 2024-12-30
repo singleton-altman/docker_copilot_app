@@ -1,0 +1,29 @@
+name: docker_copilot_app
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  flutter_easyloading: ^3.0.5
+  hive_flutter: ^1.1.0
+  flutter_slidable: ^3.1.2
+  flutter_keyboard_visibility: ^6.0.0
+  logger: ^2.5.0
+  dio: ^5.7.0
+  path_provider: ^2.1.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+flutter:
+  uses-material-design: true
